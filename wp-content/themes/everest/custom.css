@@ -1,0 +1,152 @@
+/* Rules
+------------------------------------------------------------------------------------------ */
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	color: #0089cf;
+}
+
+a:hover {
+	color: #03428e;
+}
+
+/* Structure
+------------------------------------------------------------------------------------------ */
+
+/* Main */
+
+html {
+	background-color: #fff;
+}
+
+body {
+	background-image: url('assets/background/grid_noise.png');
+}
+
+.header-image .site-title > a {
+	background: transparent;
+	content: url('assets/structure/logo-color.png');
+	width: 300px;
+	position: relative;
+	z-index: 100;
+}
+
+.site-header {
+	position: fixed;
+	width: 100%;
+	min-height: 100px;
+	border-bottom: 1px solid #eee;
+	z-index: 10;
+}
+
+.site-header .wrap {
+	padding: 10px 0;
+}
+
+/* Type */
+
+body, p, li, h1, h2, h3, h4, h5, h6, button {
+	font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+
+h1 {
+	text-transform: lowercase;
+	font-size: 48px !important;
+	color: #0089cf;
+	font-weight: 700;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px !important;
+	color: #aaa;
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+
+/* Nav */
+
+.nav-primary {
+	position: fixed;
+	margin: 0 auto;
+	margin-top: 30px;
+	right: 0;
+	text-align: right;
+	z-index: 10;
+	width: 100%;
+	background-color: transparent;
+}
+
+.nav-primary ul {
+	position: relative;
+	z-index: 1;
+}
+
+.nav-primary .genesis-nav-menu a {
+	color: #0089cf;
+	text-transform: lowercase;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.nav-primary .genesis-nav-menu a:hover {
+	color: #03428e;
+	text-decoration: none;
+}
+
+.nav-primary .genesis-nav-menu .current-menu-item > a {
+	color: #03428e;
+	text-decoration: none;
+}
+
+.site-inner {
+	margin-top: 100px;
+	min-height: 25vh;
+}
+
+/* Content */
+
+.content {
+	border: 1px solid #eee;
+}
+
+.entry {
+	margin-bottom: 0;
+}
+
+/* Footer */
+
+.site-footer {
+	margin-top: 35px;
+	background: #0089cf;
+	color: #fff;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.site-footer a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.site-footer a:hover {
+	color: #ddd;
+}
+
+/* Home */
+
+.front-page-main {
+	margin-top: 105px;
+}
+
+.front-page-main h1 {
+	color: #fff;
+}
+
+.home .content {
+	border: none;
+}
