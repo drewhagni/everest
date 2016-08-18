@@ -1,0 +1,134 @@
+/* Byers Creative custom styles */
+
+.clear {
+	clear: both;
+}
+
+.hero {
+	padding: 25px;
+	margin: 15px 0;
+	height: 350px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.hero h1 {
+	padding: 100px 0;
+}
+
+.industries-wrapper {
+	margin: 25px 0;
+}
+
+.industry {
+	width: 24%;
+	height: 150px;
+	margin-right: 1.3%;
+	float: left;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+.industry h3 {
+	padding: 50px 0;
+}
+
+.industry:last-child {
+	margin-right: 0;
+}
+
+.clients-wrapper {
+	margin: 25px 0;
+	float: left;
+	text-align: center;
+}
+
+.clients-wrapper h1 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.client {
+	width: 15%;
+	float: left;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0 2% 2% 0;
+	border: 1px solid #ddd;
+}
+
+.client:last-child,
+.client:nth-child(7) {
+	margin-right: 0;
+}
+
+.services-wrapper {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.services-wrapper h1 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.service {
+	width: 32%;
+	float: left;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0 2% 2% 0;
+	border: 1px solid #ddd;
+}
+
+.service:last-child,
+.service:nth-child(4) {
+	margin-right: 0;
+}
+
+.widgets-wrapper {
+	float: left;
+	width: 100%;
+	margin: 50px 0 100px;
+}
+
+.portfolio-widget {
+	width: 49%;
+	float: left;
+	text-align: center;
+	padding: 50px;
+	margin-right: 1%;
+	border: 1px solid #ddd;
+	height: 300px;
+}
+
+.blog-widget {
+	width: 49%;
+	float: right;
+	text-align: center;
+	padding: 50px;
+	margin-right: 0;
+	border: 1px solid #ddd;
+	height: 300px;
+}
+
+h1.entry-title {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.portfolio {
+	border: 1px solid #ddd;
+	padding: 50px;
+	width: 24%;
+	margin: 0 1% 1% 0;
+	float: left;
+	text-align: center;
+}
+
+.portfolio:last-child {
+	margin-right: 0;
+}
+
+/* This is a test */
